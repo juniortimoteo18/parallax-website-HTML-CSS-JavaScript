@@ -27,5 +27,57 @@
             <img src="./images/man.png" id="man">
             <img src="./images/plants.png" id="plants">
         </section>
+        <section class="sec">
+            <h2>Parallax Website </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque doloremque eligendi necessitatibus repudiandae eos cum, harum vero recusandae blanditiis, dolorum consectetur cumque, possimus sapiente nam. Facere autem cumque assumenda dolor nihil ut, magni laborum hic eveniet perspiciatis aliquam, facilis dolorum? Excepturi reprehenderit laborum quas officiis incidunt eligendi odio suscipit vero molestiae totam ipsa, soluta, cum molestias, culpa tenetur saepe voluptatibus provident eos minus aliquam mollitia deleniti unde iure? Perspiciatis earum, quasi dolore ducimus maxime odit esse at tenetur, sit ratione possimus expedita eaque ullam accusantium officiis nam quibusdam fuga! Eos dolorum voluptas blanditiis hic commodi rem, esse laborum aperiam sunt quas ducimus dolor veniam ex officia eligendi facere. Possimus laboriosam nostrum natus est impedit alias doloremque qui ipsam quidem amet reprehenderit, dolorem repellat maxime tempore et eius itaque molestias doloribus ratione asperiores, aspernatur quia quasi. Aperiam consectetur odio expedita voluptatum nemo quas totam accusantium? Sed fugiat facilis iure suscipit incidunt esse! Aperiam tempora laboriosam accusantium. Veritatis placeat voluptate dolorum iure labore error, praesentium delectus necessitatibus nostrum nobis maiores porro nulla sit reiciendis est vel magni, minima in maxime consequuntur doloremque et expedita ad? Repudiandae, quas consequatur? Maxime aspernatur dolorem non facilis nostrum a, fugit harum consequatur error natus cum dolores dignissimos laboriosam cumque eaque. Aliquam illo nisi doloribus eveniet, eum, omnis soluta adipisci nobis, quam ab aspernatur rerum cum! Sequi in repellat perferendis aspernatur fuga commodi ab. Qui earum velit quasi recusandae vitae dicta id, cum pariatur corporis deleniti in beatae inventore nostrum! Accusamus voluptates quidem possimus, itaque nesciunt facilis temporibus deserunt ut? Quae consequatur, necessitatibus qui facere reprehenderit nulla hic minima illum, doloremque esse enim natus voluptatum impedit nemo facilis autem, dicta sit porro culpa debitis quibusdam minus laborum neque. Facere illum commodi, quia nulla totam corporis aliquam necessitatibus numquam, possimus labore nesciunt quo repellat in minus nisi eos doloribus temporibus tenetur? Ipsam similique nesciunt a necessitatibus eum perspiciatis facilis fugiat ipsa cumque alias. Fuga iure pariatur saepe voluptatum dolorem vero assumenda accusamus ipsa vitae. Maxime, aperiam quod velit soluta corrupti illo distinctio veritatis esse cumque explicabo quasi? Ex, qui, repellendus iste odit quidem corrupti eligendi, doloribus esse quo minus veritatis ipsa dolores. Reprehenderit quia repellat inventore voluptatum nulla minima atque fuga rerum nesciunt qui? Ex eaque aspernatur doloremque totam voluptas itaque dolorem fuga? Consequuntur sed mollitia perferendis. Distinctio corrupti officiis voluptate maiores deleniti optio libero, aperiam, voluptates repellendus ipsa quaerat, vero nihil odit commodi explicabo iusto nostrum excepturi id pariatur! At, ducimus quo. Qui cum ex nesciunt veniam facere. Debitis dolorem placeat voluptate eaque ratione molestiae perferendis pariatur accusamus repudiandae explicabo. Quasi laboriosam est rem et quos, recusandae accusantium deleniti harum iure ad quo eos! Sint, quos id optio veniam non tenetur vitae veritatis? Nam nobis nisi voluptate corrupti atque tempore vel nulla soluta ex dolore commodi, quis quos officia fuga sed rem. Error consequatur id quaerat tempore beatae non libero ex corrupti pariatur praesentium necessitatibus, nobis cumque sapiente, delectus dolores incidunt quos maiores aut molestias architecto earum. Officiis dolorum quis excepturi placeat cum cupiditate qui expedita voluptas!
+            </p>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.from("#m1", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                y : 100
+            });
+            gsap.from("#m2", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                y : 50
+            });
+            gsap.from("#t2", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                x : -50
+            });
+            gsap.from("#t1", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                x : 50
+            });
+            gsap.from("#man", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                x : -250
+            });
+            gsap.from("#plants", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                x : 50
+            });
+            gsap.from("#text", {
+                scrollTrigger : {
+                    scrub: true
+                },
+                x : 500
+            });
+        </script>
     </body>
 </html>
